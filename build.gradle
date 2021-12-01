@@ -3,7 +3,7 @@ apply plugin: 'idea'
 
 group 'com.thoughtworks.collection'
 version '1.0-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 
 repositories {
@@ -25,3 +25,4 @@ test {
         events "passed", "skipped", "failed"
     }
 }
+targetCompatibility = JavaVersion.VERSION_11
